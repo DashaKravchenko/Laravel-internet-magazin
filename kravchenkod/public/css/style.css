@@ -1,0 +1,464 @@
+body{
+    background-image: url(..//images/fon2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 20px;
+    height: 100%;
+}
+
+.nav-item a{
+  display: inline-block;
+    margin-right: 40px;
+    margin-left: 30px;
+  
+}
+
+
+.logout{
+  width: auto;
+}
+.navbar-light .navbar-nav .nav-link{
+  color: rgba(93, 93, 93, 0.719);
+  font-size: 20px;
+}
+.cat-navbar{ 
+  max-height: auto;
+  margin: -10px;
+  background: rgb(255, 255, 255);
+}
+
+
+.active p{
+  color: rgb(185, 31, 31);
+}
+.cat-menu:hover {
+  white-space: nowrap;
+  padding: 0;
+  color: rgb(185, 31, 31);
+  
+}
+
+.cart{
+  display: inline-block;
+  
+}
+.cart img{
+ width:100px; 
+}
+.tel{
+  display: inline-block;
+}
+
+.containerLetter{
+  min-height: 110vh;
+  width: 70vw;
+  padding: 10px;
+  background: rgba(255, 254, 253, 0.719);
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.write{
+  display: inline-block;
+  position: fixed;
+  right: 80px;
+  bottom: 20px;
+  z-index: 1;
+}
+
+.write img{
+  width: 100px;
+}
+.letter{
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.txtLetter {
+  text-align:center;
+  margin-bottom: 50px;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.write{
+  -webkit-animation: pulsing 2s infinite;
+  animation: pulsing 2s infinite;
+}
+@-webkit-keyframes pulsing {
+  0% {
+    -webkit-transform: scale(0.5, 0.5);
+    transform: scale(0.5, 0.5)
+  }
+  50% {
+    -webkit-transform: scale(1.0, 1.0);
+    transform: scale(1.0, 1.0);
+  }
+  100% {
+    -webkit-transform: scale(0.5, 0.5);
+    transform: scale(0.5, 0.5);
+  }
+}
+
+@keyframes pulsing {
+  0% {
+    -webkit-transform: scale(0.5, 0.5);
+    transform: scale(0.5, 0.5)
+  }
+  50% {
+    -webkit-transform: scale(1.0, 1.0);
+    transform: scale(1.0, 1.0);
+  }
+  100% {
+    -webkit-transform: scale(0.5, 0.5);
+    transform: scale(0.5, 0.5);
+  }
+}
+
+
+
+
+header{
+  display: flex;
+  justify-content: space-evenly;
+}
+.kievstar{
+  text-align: right;
+  margin-right: 40px;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+.vodafon{
+  text-align: right;
+  margin-right: 40px;
+ text-decoration: none;
+}
+.kievstar  img{
+  margin-right: 10px;
+}
+.kievstar a{
+  color: black;
+}
+.vodafon img{
+  margin-right: 10px;
+}
+.vodafon a{
+  color: black;
+}
+footer{
+text-align: center;
+color: rgb(0, 0, 0);
+background-color: rgba(255, 254, 253, 0.719);
+position: static;
+left: 0;
+bottom: 0px;
+padding: 10px 0;
+}
+.col-5, .cl a{
+  margin-left: 20px;
+}
+.cl{
+  display: inline-block;
+}
+.cl img{
+  margin-top: -15px;
+  padding: 0;
+}
+
+
+
+.navbar-brand{
+  display: inline-block;
+}
+.phone{
+  display: inline-block;
+}
+
+.mebel{
+  height:90px;
+  width:130px;
+background-image:url('https://img.icons8.com/ios-filled/90/000000/sofa.png') ;
+background-repeat: no-repeat;
+background-position: center;
+margin-right:25px;
+}
+
+.mebel:hover{
+background-image:url('https://img.icons8.com/nolan/100/sofa.png');
+background-size: 125px;
+
+}
+
+ .activeM{
+  background-image:url('https://img.icons8.com/nolan/100/sofa.png');
+  background-size: 125px;
+  
+  }
+
+
+.delivery{
+  height:90px; 
+  width:130px;
+  margin-top:10px;
+  margin-right:25px;
+  background-image:url('https://img.icons8.com/metro/85/000000/deliver-food.png') ;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.delivery:hover{
+  
+background-image:url('https://img.icons8.com/nolan/100/delivery.png');
+background-size: 110px;
+
+}
+.activeD{  
+background-image:url('https://img.icons8.com/nolan/100/delivery.png');
+background-size: 110px;
+
+}
+
+.address{
+  height:90px;
+   width:130px;
+  margin-top: 17px;
+  margin-right:25px;
+background-image:url('https://img.icons8.com/material/80/000000/address.png') ;
+background-repeat: no-repeat;
+background-position: center;
+
+}
+
+.address:hover{
+background-image:url('https://img.icons8.com/nolan/90/address.png');
+}
+.activeA{
+  background-image:url('https://img.icons8.com/nolan/90/address.png');
+
+  }
+
+ 
+
+.addressContainer { 
+  min-height: 100vh;
+  width: 95vw;
+  padding: 10px;
+  margin-left: 2vw;
+  background: rgba(255, 254, 253, 0.719);
+  }
+.addressContainer h1{ 
+text-align:center;
+margin-bottom: 50px;
+margin-top: 20px;
+font-weight: bold;
+font-size: 40px;
+}
+.addressTxt{
+  display: inline-block;
+  text-align: center;
+  margin-left: 60px;
+  margin-right: 10px;
+}
+.addressKarta{
+  display: inline-block;
+  
+  margin-right: 100px;
+}
+
+
+.activeI{
+border: 2px solid rgb(187, 133, 248);
+}
+.navbar-brand:hover{
+  outline: 2px solid rgb(187, 133, 248);
+}
+
+
+
+
+.indexContainer { 
+  width: 95vw;
+  min-height: 100vh;
+  padding: 10px;
+  background: rgba(255, 254, 253, 0.719);
+  margin-left: 2vw;
+  }
+
+  .indexContainer h1{ 
+    text-align:center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 40px;
+    }
+
+.indexTxt{
+ 
+  padding: 10px;
+  text-align: center;
+  margin-left: 60px;
+}
+
+
+
+
+.deliveryContainer { 
+  width: 95vw;
+  min-height: 100vh;
+  padding: 10px;
+  background: rgba(255, 254, 253, 0.719);
+  margin-left: 2vw;
+  }
+
+  .deliveryContainer h1{ 
+    text-align:center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 40px;
+    }
+
+    .deliveryContainer h2{
+      font-weight: bold;
+      text-align: center;
+    }
+    .oplata{
+      font-weight: bold;
+    }
+
+
+    .d-block{
+      display: inline-block;
+      text-align: center;
+      margin-bottom: 50px;
+      width: 1100px;
+      
+    }
+
+
+    .mebelContainer{
+      width: 95vw;
+      min-height: 100vh;
+      padding: 10px;
+      background: rgba(255, 254, 253, 0.719);
+      margin-left: 2vw;
+    }
+
+    .mebelContainer{
+      font-weight: bold;
+      text-align: center;
+    }
+    .mebelContainer h2{
+      font-weight: bold;
+      text-align: center;
+      margin-bottom: 30px;
+      margin-top: 20px;
+      font-size: 40px;
+    }
+   
+
+    .name_category{
+      color:rgb(7, 7, 7);
+      font-size: 20px;
+      height: 20px;
+      margin-top: -40px;
+    }
+    
+@media (min-width: 576px) {
+  
+    .name_category{
+      height: 15px;
+    }
+
+
+}
+    .border{
+      margin-bottom: 25px;
+    }
+    .contCategory {
+      
+      font-weight: bold;
+      text-align: center;
+      margin-bottom: 30px;
+      margin-top: 20px;
+      font-size: 40px;
+    }
+
+    .containerCategory{
+      
+      margin-left: 2vw;
+      padding: 10px;
+      width: 95vw;
+      min-height: 100vh; 
+      background: rgba(255, 254, 253, 0.719);
+    }
+
+.txt-back{
+  font-size: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 10%;
+  margin-bottom: 15px;
+}
+.txt a{
+  font-size: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  
+  margin-bottom: 5px;
+  color: white;
+}
+.txt-back a{
+   color: rgba(235, 168, 13, 0.938);
+}
+
+.card-title{
+  font-family: "Noto Sans", serif;
+ color:rgb(148, 116, 42);
+}
+body{
+  font-family: "Noto Sans", serif;
+
+}
+.price{
+  font-family: "Noto Sans", serif;
+  display: inline-block;
+  font-size: 20px;
+  color:rgb(148, 116, 42);
+}
+
+.containerCheckout{
+  margin-left: 25%;
+  padding: 10px;
+  width: 45vw;
+  text-align: center;
+  min-height: 80vh; 
+ background: rgba(255, 254, 253, 0.719);
+  
+}
+
+.price{
+  font-size: 25px;
+}
+
+.glob-menu{
+flex-direction: row !important;
+}
+
+.cmc{
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.cmc h2{
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+
+.cartochka{
+  margin-bottom: 20px;
+ 
+}
